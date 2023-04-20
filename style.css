@@ -22,7 +22,12 @@ body {
 
 @media (max-width: 768px) {
 
+<<<<<<< HEAD
 .aaa { text-align: center;
+=======
+.aaa { 
+    text-align: center;
+>>>>>>> 97baa15d6e438b0b9589297c51287652cd822ea7
 }
 
 }
@@ -48,11 +53,21 @@ ul {
     padding: 0px;
 }
 
+<<<<<<< HEAD
 li, h3 {
     list-style: none;
 }
 
 input,button{
+=======
+li, 
+h3 {
+    list-style: none;
+}
+
+input,
+button{
+>>>>>>> 97baa15d6e438b0b9589297c51287652cd822ea7
     outline: none;
 }
 
