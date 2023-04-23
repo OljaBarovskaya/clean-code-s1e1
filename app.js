@@ -27,7 +27,7 @@ var createNewTaskElement=function(taskString){
     //label
     var label=document.createElement("label");//label
     label.innerText=taskString;
-    label.className='tasks__name';
+    label.className="tasks__name";
     //input (text)
     var editInput=document.createElement("input");//text
     editInput.type="text";
@@ -40,7 +40,7 @@ var createNewTaskElement=function(taskString){
     var deleteButton=document.createElement("button");//delete button
     var deleteButtonImg=document.createElement("img");//delete button image
     deleteButton.className="button button__delete";
-    deleteButtonImg.src='./remove.svg';
+    deleteButtonImg.src="./remove.svg";
     deleteButtonImg.className="delete-icon";
     deleteButton.appendChild(deleteButtonImg);
 
@@ -78,7 +78,7 @@ var editTask=function(){
 
     var listItem=this.parentNode;
 
-    var editInput=listItem.querySelector('.tasks__input');
+    var editInput=listItem.querySelector(".tasks__input");
     var label=listItem.querySelector(".tasks__name");
     var editBtn=listItem.querySelector(".button__edit");
     var containsClass=editInput.classList.contains("input_display_inline-block");
